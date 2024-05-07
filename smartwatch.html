@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylewatch.css">
     <title>Google Store - Watches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylewatch.css">
 </head>
 <body>
+
     <div class="navbar">
-        <img class="google-logo" src="/images/google-logo.png" alt="Google logo image">
         <nav>
+            <img class="google-logo" src="/images/google-logo.png" alt="Google logo image">
             <ul>
-                <li>Phones</li>
-                <li>Earbuds</li>
-                <li class="color-text">Watches</li>
-                <li>Smart Home</li>
-                <li>Accessories</li>
-                <li>Subscriptions</li>
+                <a href=""><li>Phones</li></a>
+                <a href="./earbuds.html"><li>Earbuds</li></a>
+                <a href="./smartwatch.html"><li class="color-text">Watches</li></a>
+                <a href=""><li>Smart Home</li></a>
+                <a href=""><li>Accessories</li></a>
+                <a href=""><li>Subscriptions</li></a>
             </ul>
         </nav>
         <div class="nav-icons">
@@ -29,21 +33,25 @@
 
     <main>
 
-        <p><img src="/images/icons/Arrow.svg" alt="back arrow icon">See product details</p>
-        <div class="main-photo">
-            <img class="product-photo" src="/images/smartwatch/smartwatch_black.png" alt="black smartwatch photo without background">
-        </div>
+        <p><img src="/images/icons/Arrow.svg" alt="back arrow icon" class="regular-text">See product details</p>
+        
+        <div class="photo-description">
+            <div class="main-photo">
 
-        <div class="description">
-            <div class="product">
-                <h2 class="title-text">Fitbit Inspire 3</h2>
-                <p class="regular-text">Health & Fitness Tracker</p>
-                <h4 class="subtitle-text">99,95 €</h4>
+                <img class="product-photo" src="/images/smartwatch/smartwatch_black.png" alt="black smartwatch photo without background">
             </div>
 
-            <hr class="sep-1">
+            <div class="description">
+                <div class="product">
+                    <h2 class="title-text">Fitbit Inspire 3</h2>
+                    <p class="regular-text">Health & Fitness Tracker</p>
+                    <h4 class="subtitle-text">99,95 €</h4>
+                </div>
+        
+
+                <hr class="sep-1">
             
-            <div class="color-options">
+                <div class="color-options">
                 <p class="regular-text">Choose a color</p>
                 <div class="watch-colors">
                     <div class="watch-color-option-1">
@@ -59,26 +67,29 @@
                         <p class="regular-text">Morning Glow</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="buy-section">
-                <h2 class="title-text">99,95 €</h2>
-
-                <hr class="sep-2">
-
-                <div class="add-button">
-                    <select class="selection">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                    <button id="add_to_cart">Add to Cart</button>
+                <div class="buy-section">
+                    <h2 class="title-text">99,95 €</h2>
+    
+                    <hr class="sep-2">
+    
+                    <div class="add-button">
+                        <select class="selection">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <button id="add_to_cart">Add to Cart</button>
+                    </div>
+                    <p><img src="/images/icons/Delivery.svg">Delivers <span id="date">29 Apr</span> to <span class="color-text">08023</span></p>
                 </div>
-                <p><img src="/images/icons/Delivery.svg">Delivers <span id="date">29 Apr</span> to <span class="destination">08023</span></p>
             </div>
+
+            
         </div>
+    </div>
     </main>
 
     <footer>

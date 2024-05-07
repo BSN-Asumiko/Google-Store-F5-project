@@ -1,0 +1,12 @@
+:root {
+    --lightblue: #ffffff
+    }
+    
+    *{
+        font-family: "Inter", sans-serif;
+    }
+    .color-text{
+        font-weight: bold;
+        color: #1A73E9;
+    }
+    
