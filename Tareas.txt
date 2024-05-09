@@ -6,17 +6,19 @@ I - CSS pagina smartwatch desktop
 	3) clases de texto - estilo para cada clase
 	4) variables de brand colors
 	5) background-color de secciones
-	6) navbar: flex, space between, shadow
-	7) main - flex, flex start
-	8) flecha - texto alinear con icono
-	9) div padre - flex, align - start
-	10) main photo - 65%, description 35%   ?????
-	11) main photo - height 80% ?????, background-color, flex - ajustar el reloj por el medio
-	12) IMG reloj - tamano %
-	13) description: flex, flex start, column
-	14) footer - flex 
-	15) links - width 55% ????
-	16) iconos footer 45%??? align self
+	6) estilo de <a>
+	7) 
+	8) navbar: flex, space between, shadow
+	9) main - flex, flex start
+	10) flecha - texto alinear con icono
+	11) div padre - flex, align - start
+	12) main photo - 65%, description 35%   ?????
+	13) main photo - height 80% ?????, background-color, flex - ajustar el reloj por el medio
+	14) IMG reloj - tamano %
+	15) description: flex, flex start, column
+	16) footer - flex 
+	17) links - width 55% ????
+	18) iconos footer 45%??? align self
 
 
 II - CSS pagina earbuds desktop
