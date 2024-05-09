@@ -1,32 +1,19 @@
-1. revisar padre
-2. 
-I - CSS pagina smartwatch desktop
-	1) Body - font
-	2) box-sizing de todo
-	3) clases de texto - estilo para cada clase
-	4) variables de brand colors
-	5) background-color de secciones
-	6) estilo de <a>
-	7) 
-	8) navbar: flex, space between, shadow
-	9) main - flex, flex start
-	10) flecha - texto alinear con icono
-	11) div padre - flex, align - start
-	12) main photo - 65%, description 35%   ?????
-	13) main photo - height 80% ?????, background-color, flex - ajustar el reloj por el medio
-	14) IMG reloj - tamano %
-	15) description: flex, flex start, column
-	16) footer - flex 
-	17) links - width 55% ????
-	18) iconos footer 45%??? align self
 
 
-II - CSS pagina earbuds desktop
-
-copiar de watch, ajustar side mini photos
-opciones de colores
 
 
 III Media queries
 
+<link rel="stylesheet" media="only screen and  (min-width: 768px) and (max-width: 992px)"  href="style-tablet.css">
+    <link rel="stylesheet" media="only screen and (max-width: 576px)"  href="style-mobile.css">
+
 IV Presentacion
+
+
+V Ultimos retoques
+
+cambiar elementos div a semanticos
+arreglar la flecha de select
+
+gitHub - acabar de entender como actualizar y hacer merge
+
