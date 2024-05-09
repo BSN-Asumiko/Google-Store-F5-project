@@ -268,6 +268,7 @@ footer{
     margin-right: 20px;
     padding-left: 188px;
     height: 33px;
+    margin-bottom: 0;
 }
 .footer-icons {
     display:flex;
