@@ -1,11 +1,280 @@
-:root {
---lightblue: #ffffff
+html {
+    width: 100vw;
 }
 
-*{
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Inter", sans-serif;
+    color: #343A49;
+    width: 100%;
+    margin: 0;
+}
+header{
+    padding-left: 30px;
 }
 .color-text{
     font-weight: bold;
     color: #1A73E9;
+}
+.title-text {
+    font-size: 35px;
+    font-weight: bold;
+}
+.subtitle-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.regular-text {
+    font-size: 12px;
+}
+.bold-text {
+    font-weight: bold;
+    font-size: 12px;
+}
+.footer-text {
+    font-size: 8px;
+}
+
+a{      
+    text-decoration: none;
+    color: #343A49;
+    display: block;
+}
+
+li a {
+    margin: 0 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    /* background-color: slateblue; */
+    height: 44px;    
+    box-shadow: 2px 0px 20px #58626b7b;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin:0;
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+.google-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: -20px;
+}
+.nav-icons{
+    display:flex;
+    align-items: center;    
+}
+
+.nav-icons a {
+    margin: 0 18px;
+}
+
+/* MAIN */
+
+main {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.back-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    margin-right: 15px;
+}
+
+.photo-description {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: flex-start; 
+}
+/* .selection{
+     background-image: url(https://fontawesome.com/icons/caret-down?f=classic&s=solid); /*aquí deberás escribir la ruta de la imagen que utilizarás como flecha del desplegable
+     background-repeat: no-repeat;
+    background-position: right center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;  
+} */
+
+.main-photo {
+
+    width: 60%;
+    height: 75%;    
+    background-color: #F8F9FA;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product-photo {
+    width: 338px;
+}
+
+.description {
+    margin: 0 auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product h2 {
+    margin: 0 0 30px 0;
+}
+
+.product h4 {
+    margin: 5px 0 30px 0;
+}
+
+hr {
+    background-color :#58626B;
+    width: 90%;
+}
+
+.sep-1 {
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.watch-colors {
+    display: flex;
+    justify-items: space-around;
+    width: 100%;
+}
+.watch-colors div {
+    border: 1px #58626B solid;
+    border-radius: 5px;
+    width: 131px;
+    height: 113px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-colors img {
+    width: 68px;
+    height: 75px;
+    margin-bottom: -15px;
+}
+
+.buy-section {
+    width: 95%;
+    height: 242px;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    margin: 35px 0;
+    padding: 20px;
+}
+
+.buy-section h2 {
+    margin-top: 0;
+}
+
+.add-button {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0 40px 0;
+}
+
+.selection {
+    width: 77px;
+    height: 52px;
+    border: 1px #343A49 solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+
+#add_to_cart {
+    width: 278px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A73E8;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+}
+
+.delivery img {
+    margin-right: 10px;
+}
+
+.del-span {
+    margin-left: 5px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding-left: 188px;
+    height: 33px;
+}
+.footer-icons {
+    display:flex;
+    align-items: center; 
+    width: 35%;
+    justify-content: center;
+    
+}
+
+.footer-icons a {
+    margin: 0 6px;
+    display: block;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    width: 60%;    
+}
+.links a{
+    margin: 0 23px; 
+}
+
+.current-country{
+    display: flex;
+}
+.img-footer{
+    margin-right: 5px;
+
 }
