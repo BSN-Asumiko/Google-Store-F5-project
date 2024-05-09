@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="styleearbuds.css">
 </head>
 <body>
-    <div class="navbar">
+    <header class="navbar">
+        <nav class="regular-text">
         <img class="google-logo" src="/images/google-logo.png" alt="Google logo image">
-        <nav>
             <ul>
-                <a href=""><li>Phones</li></a>
-                <a href="./earbuds.html"><li>Earbuds</li></a>
-                <a href="./smartwatch.html"><li class="color-text">Watches</li></a>
-                <a href=""><li>Smart Home</li></a>
-                <a href=""><li>Accessories</li></a>
-                <a href=""><li>Subscriptions</li></a>
+                <li><a href="url" target="_blank">Phones</a></li>
+                <li><a href="./earbuds.html" class="color-text">Earbuds</a></li>
+                <li><a href="./smartwatch.html">Watches</a></li>
+                <li><a href="url" target="_blank">Smart Home</a></li>
+                <li><a href="url" target="_blank">Accessories</a></li>
+                <li><a href="url" target="_blank">Subscriptions</a></li>
             </ul>
         </nav>
         <div class="nav-icons">
@@ -29,23 +29,28 @@
             <a href="url" target="_blank"><img src="/images/icons/Cart.svg" alt="go to cart icon"></a>
             <a href="url" target="_blank"><img src="/images/icons/Avatar.svg" alt="go to perfil icon"></a>
         </div>
-    </div>
+    </header>
 
     <main>
 
-        <p><img src="/images/icons/Arrow.svg" alt="back arrow icon">See product details</p>
-        <div class="photo-section">
-            <div class="mini-photos">
-                <img class="mini-photo" src="/images/earbuds/earbuds_01.png" alt="photo of earbuds in white case">
-                <img class="mini-photo" src="/images/earbuds/earbuds_02.png" alt= "front photo of one earbud">
-                <img class="mini-photo" src="/images/earbuds/earbuds_03.png" alt= "side photo of one earbud">
-                <img class="mini-photo" src="/images/earbuds/earbuds_04.png" alt= "front photo of two earbuds without a case">
-            </div>
-            <div class="main-photo">
-                <img class="product-photo" src="/images/earbuds/earbuds_01.png" alt="photo of earbuds in white case ">
-            </div>
-        </div>
+        <p class="back-arrow regular-text"><img src="/images/icons/Arrow.svg" alt="back arrow icon">See product details</p>
+        
         <div class="photo-description">
+            <div class="photo-section">
+                <div class="mini-photos">
+                    <div class="mini-photo">
+                        <img class="mp1" src="/images/earbuds/earbuds_01.png" alt="photo of earbuds in white case"></div>
+                    <div class="mini-photo">
+                        <img class="mp2" src="/images/earbuds/earbuds_02.png" alt= "front photo of one earbud"></div>
+                    <div class="mini-photo">
+                        <img class="mp3" src="/images/earbuds/earbuds_03.png" alt= "side photo of one earbud"></div>
+                    <div class="mini-photo">
+                        <img class="mp4" src="/images/earbuds/earbuds_04.png" alt= "front photo of two earbuds without a case"></div>
+                </div>
+                <div class="main-photo">
+                    <img class="product-photo" src="/images/earbuds/earbuds_01.png" alt="photo of earbuds in white case ">
+                </div>
+            </div>
             <div class="description">
                 <div class="product">
                     <h2 class="title-text">Google Pixel Buds Pro</h2>
@@ -66,14 +71,12 @@
                         <div class="color-6"></div>
                     </div>
                 </div>
-            </div>
-
                 <div class="buy-section">
                     <h2 class="title-text">229 €</h2>
 
-                <hr class="sep-2">
+                    <hr class="sep-2">
 
-                <div class="add-button">
+                    <div class="add-button">
                     <select class="selection">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -82,9 +85,12 @@
                         <option value="5">5</option>
                     </select>
                     <button id="add_to_cart">Add to Cart</button>
+                    </div>
+                    <p class="bold-text delivery"><img src="/images/icons/Delivery.svg">Delivers 29 Apr to <span class="color-text del-span">08023</span></p>
                 </div>
-                <p><img src="/images/icons/Delivery.svg">Delivers <span id="date">29 Apr</span> to <span class="destination">08023</span></p>
             </div>
+
+                
         </div>
     </main>
 
@@ -99,7 +105,7 @@
         
         <div class="links">
             <div class="current-country">
-            <img src="/images/icons/Spain.svg" alt="Spain flag image">
+            <img src="/images/icons/Spain.svg" alt="Spain flag image" class="img-footer">
             <p class="footer-text">Spain</p>
             </div>
             <a href="url" target="_blank"><p class="footer-text">Privacy</p></a>
