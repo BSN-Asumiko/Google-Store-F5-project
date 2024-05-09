@@ -12,6 +12,7 @@ body {
     width: 100%;
     margin: 0;
 }
+
 header{
     padding-left: 30px;
 }
@@ -55,7 +56,6 @@ li a {
     /* background-color: slateblue; */
     height: 44px;    
     box-shadow: 2px 0px 20px #58626b7b;
-    
 }
 
 nav {
@@ -73,6 +73,7 @@ li{
     height: 30px;
     margin-right: -20px;
 }
+
 .nav-icons{
     display:flex;
     align-items: center;    
@@ -102,6 +103,7 @@ main {
     margin-right: 15px;
 }
 
+
 .photo-description {
     width: 100%;
     height: 700px;
@@ -118,10 +120,56 @@ main {
     appearance: none;  
 } */
 
-.main-photo {
+.photo-section {
+    width: 66%;
+    height: 70%;  
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+}
 
-    width: 60%;
-    height: 75%;    
+.mini-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+
+}
+
+.mini-photo {
+    width: 47px;
+    height: 47px;
+    border: 1px #58626B solid;
+    border-radius: 50%;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mp1 {
+    width: 43px;
+    height: 32px;
+}
+
+.mp2 {
+    width: 43px;
+    height: 31px;
+}
+
+.mp3 {
+    width: 47px;
+    height: 35px;
+}
+
+.mp4 {
+    width: 46px;
+    height: 34px;
+}
+
+.main-photo {
+    width: 80%;
     background-color: #F8F9FA;
     border-radius: 24px;
     display: flex;
@@ -130,13 +178,11 @@ main {
 }
 
 
-
 .product-photo {
-    width: 338px;
+    width: 476px;
 }
 
 .description {
-    margin: 0 auto;
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -159,29 +205,6 @@ hr {
 .sep-1 {
     margin-left: 0;
     margin-bottom: 15px;
-}
-
-.watch-colors {
-    display: flex;
-    justify-items: space-around;
-    width: 100%;
-}
-.watch-colors div {
-    border: 1px #58626B solid;
-    border-radius: 5px;
-    width: 131px;
-    height: 113px;
-    margin: 10px 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.watch-colors img {
-    width: 68px;
-    height: 75px;
-    margin-bottom: -15px;
 }
 
 .buy-section {
@@ -210,6 +233,7 @@ hr {
     border-radius: 5px;
     text-align: center;
     background-color: #F8F9FA;
+    margin-right: 10px;
 }
 
 #add_to_cart {
@@ -237,7 +261,6 @@ hr {
     margin-left: 5px;
 }
 
-
 /* FOOTER */
 
 footer{
@@ -247,13 +270,14 @@ footer{
     margin-right: 20px;
     padding-left: 188px;
     height: 33px;
+    margin-bottom: 0;
 }
 .footer-icons {
     display:flex;
     align-items: center; 
     width: 35%;
     justify-content: center;
-    
+
 }
 
 .footer-icons a {
@@ -276,5 +300,44 @@ footer{
 }
 .img-footer{
     margin-right: 5px;
+}
 
+/* EARBUDS */
+
+.colors{
+    width: 100%;
+    margin-bottom: 130px;
+
+}
+.color-options p{
+    margin-bottom: 20px;
+}
+
+.colors div {
+    display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 0.1px #353A49 solid;
+    margin-right: 8px;
+}
+
+.color-1{
+    background-color: #9EC6EA;
+}
+.color-2{
+    background-color: #E7E3E0 ;
+}
+.color-3{
+    background-color:#4B4B4D ;
+}
+.color-4{
+    background-color: #D2D7DA;
+}
+.color-5{
+    background-color: #DFE5B7;
+}
+.color-6{
+    background-color: #E18472;
 }
