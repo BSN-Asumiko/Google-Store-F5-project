@@ -54,6 +54,7 @@ li a {
     height: 44px;   
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 20px;
     box-shadow: 2px 0px 20px #58626b7b;
 }
@@ -68,18 +69,25 @@ li{
     list-style: none;
     float: left;
 }
+
 .google-logo{
     width: 30px;
     height: 30px;
     margin-right: -20px;
 }
-.nav-icons{
+
+.nav-icons, menu-icons {
     display:flex;
-    align-items: center;    
+    align-items: center;
+    justify-content: space-evenly;    
 }
 
 .nav-icons a {
     margin: 0 18px;
+}
+
+.hamburger-button {
+    display: none;
 }
 
 /* MAIN */
@@ -149,6 +157,12 @@ hr {
     margin-bottom: 15px;
 }
 
+.color-options {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .watch-colors {
     display: flex;
     justify-items: space-around;
@@ -213,6 +227,10 @@ hr {
     font-weight: bold;
 }
 
+#add_to_cart:hover {
+    cursor: pointer;
+}
+
 .delivery {
     display: flex;
     align-items: center;
@@ -235,13 +253,14 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
-    padding-left: 188px;
     height: 33px;
+    margin-bottom: 0;
 }
+
 .footer-icons {
     display:flex;
     align-items: center; 
-    width: 35%;
+    width: 40%;
     justify-content: center;   
 }
 
@@ -253,10 +272,9 @@ footer{
 .links{
     display: flex;
     align-items: center;
-    width: 60%;    
-}
-.links a{
-    margin: 0 23px; 
+    justify-content: space-evenly;
+    width: 60%; 
+    padding-right: 15%;   
 }
 
 .current-country{

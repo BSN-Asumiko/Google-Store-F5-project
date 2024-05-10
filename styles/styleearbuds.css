@@ -13,9 +13,6 @@ body {
     margin: 0;
 }
 
-header{
-    padding-left: 30px;
-}
 .color-text{
     font-weight: bold;
     color: #1A73E9;
@@ -45,42 +42,52 @@ a{
     display: block;
 }
 
-li a {
-    margin: 0 12px;
+header{
+    padding-left: 30px;
 }
 
 .navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 20px;
     height: 44px;    
     box-shadow: 2px 0px 20px #58626b7b;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    margin:0;
-}
-
-li{
-    list-style: none;
-    float: left;
-}
 .google-logo{
     width: 30px;
     height: 30px;
     margin-right: -20px;
 }
 
-.nav-icons{
+nav {
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+
+li a {
+    margin: 0 12px;
+}
+
+.nav-icons, menu-icons {
     display:flex;
-    align-items: center;    
+    align-items: center;
+    justify-content: space-evenly;    
 }
 
 .nav-icons a {
     margin: 0 18px;
+}
+
+.hamburger-button {
+    display: none;
 }
 
 /* MAIN */
@@ -197,6 +204,46 @@ hr {
     margin-bottom: 15px;
 }
 
+/* EARBUDS */
+
+.color-options p{
+    margin-bottom: 20px;
+}
+
+.colors {
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.colors div {
+    display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px #353A49 solid;
+    margin-right: 8px;
+}
+
+.color-1{
+    background-color: #9EC6EA;
+}
+.color-2{
+    background-color: #E7E3E0 ;
+}
+.color-3{
+    background-color:#4B4B4D ;
+}
+.color-4{
+    background-color: #D2D7DA;
+}
+.color-5{
+    background-color: #DFE5B7;
+}
+.color-6{
+    background-color: #E18472;
+}
+
 .buy-section {
     width: 95%;
     height: 242px;
@@ -238,6 +285,10 @@ hr {
     font-weight: bold;
 }
 
+#add_to_cart:hover {
+    cursor: pointer;
+}
+
 .delivery {
     display: flex;
     align-items: center;
@@ -259,31 +310,27 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
-    padding-left: 188px;
     height: 33px;
     margin-bottom: 0;
 }
 .footer-icons {
     display:flex;
     align-items: center; 
-    width: 35%;
+    width: 40%;
     justify-content: center;
-
 }
 
 .footer-icons a {
     margin: 0 6px;
-    display: block;
-    
+    display: block;  
 }
 
 .links{
     display: flex;
     align-items: center;
-    width: 60%;    
-}
-.links a{
-    margin: 0 23px; 
+    justify-content: space-evenly;
+    width: 60%; 
+    padding-right: 15%;   
 }
 
 .current-country{
@@ -293,42 +340,3 @@ footer{
     margin-right: 5px;
 }
 
-/* EARBUDS */
-
-.colors{
-    width: 100%;
-    margin-bottom: 130px;
-
-}
-.color-options p{
-    margin-bottom: 20px;
-}
-
-.colors div {
-    display: block;
-    float: left;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    border: 0.1px #353A49 solid;
-    margin-right: 8px;
-}
-
-.color-1{
-    background-color: #9EC6EA;
-}
-.color-2{
-    background-color: #E7E3E0 ;
-}
-.color-3{
-    background-color:#4B4B4D ;
-}
-.color-4{
-    background-color: #D2D7DA;
-}
-.color-5{
-    background-color: #DFE5B7;
-}
-.color-6{
-    background-color: #E18472;
-}

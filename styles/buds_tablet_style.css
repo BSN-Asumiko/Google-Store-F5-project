@@ -1,8 +1,8 @@
-@media only screen and (min-width:630px) and (max-width:1065px) {
+@media only screen and (min-width:620px) and (max-width:1065px) {
 
     .navbar {
-        height:
-            42px;
+        height: 42px;
+        box-shadow: none;
     }
 
     .nav-icons{
@@ -57,17 +57,6 @@
         width: 45%;
     }
 
-    .watch-colors {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin-top: 20px;
-    }
-
-    .watch-colors div {
-        margin: 3px;
-    }
-
     .buy-section {
         width: 55%;
         margin-top: 48px;
@@ -99,7 +88,7 @@
     }
 }
 
-@media only screen and (min-width:630px) and (max-width:707px) {
+@media only screen and (min-width:620px) and (max-width:707px) {
     ul {
         display: none;
     }

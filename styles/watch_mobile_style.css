@@ -1,1 +1,155 @@
-/*El tamaño del nombre de producto en la description es 30px, no 35!*/
+@media only screen and (min-width:300px) and (max-width:620px) {
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;        
+    } 
+    
+    .nav-icons{
+        justify-content: flex-end; 
+    }
+
+    ul{
+        display: none;
+    }
+
+    .google-logo {
+        margin-left: 0;
+    }
+
+    .nav-icons a {
+        margin: 0 12px;
+    }
+
+    .menu-icons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .hamburger-button {
+        display: inline;
+        width: 25px;
+        margin-left: 10px;
+    }
+
+    .hamburger-button:hover {
+        cursor: pointer;
+    }
+
+    main{
+        margin-top: 15px;
+        width: 95%;
+        height: auto;
+    }
+
+    .arrow {
+        margin-right: 10px;
+    }
+
+    .mini-photos{
+        display: none;
+    }
+
+    .photo-description{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .photo-section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main-photo{
+        width: 100%;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .main-photo img {
+        width: 190px;
+        
+    }
+
+    .description{
+        width: 100%;
+        justify-content: flex-end;
+        }
+
+    .product h2 {
+        font-size: 30px;
+    }
+
+    .color-options {
+        width: 100%;
+    }
+
+    .buy-section {
+        width: 100%;
+        height: 294px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .buy-section h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .add-button {
+        flex-direction: column;
+        margin: 25px 0;
+    }
+
+    .selection {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        height: 133px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer-icons {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .footer-icon {
+        height: 28px;
+    }
+    
+    .links {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .links p {
+        margin: 1px;
+    }
+
+    .current-country {
+        order: 5;
+    }
+
+    .img-footer {
+        order: 1;
+        margin-left: 12px;
+    }
+}
+
+
+
