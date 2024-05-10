@@ -1,1 +1,84 @@
 /*El tamaño del nombre de producto en la description es 30px, no 35!*/
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+    html, body{
+        width: 376px;
+        height: 1140px;
+    }
+    main{
+        margin-top: 20px;
+    }
+    
+    ul{
+        display: none;
+    }
+    .back-arrow{
+        margin-left: 15px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;        
+    } 
+    .google-logo{
+        margin-right: -10px;
+    }
+    .nav-icons{
+        justify-content: flex-end; 
+    }
+    .mini-photos{
+        display: none;
+    }
+    .photo-description{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description{
+        display: flex;
+        align-items: center;
+        width: 336px;
+        height: 268px;
+    }
+    .title-text{
+
+        font-size: 31px;
+    }
+    .main-photo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product-photo{
+        width: 150%;
+
+    }
+    .buy-section{
+        display: block;
+        flex-direction: row;
+    }
+    .add-button{
+        display: block;
+        flex-direction: row;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .links{
+        display: flex;
+
+    }
+
+    .color-options{
+        width: 100%;
+    }
+    .colors
+    
+}
+
+
+
