@@ -1,8 +1,4 @@
-@media only screen and (min-width:500px) and (max-width:1065px) {
-    html, body {
-        width: 744px; 
-    }
-
+@media only screen and (min-width:630px) and (max-width:1065px) {
     .nav-icons{
         display:flex;
         align-items: center;
@@ -82,5 +78,11 @@
 
     .links {
         width: 75%;
+    }
+}
+
+@media only screen and (min-width:630px) and (max-width:707px) {
+    ul {
+        display: none;
     }
 }

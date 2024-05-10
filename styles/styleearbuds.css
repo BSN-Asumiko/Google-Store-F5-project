@@ -50,10 +50,10 @@ li a {
 }
 
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
-    /* background-color: slateblue; */
     height: 44px;    
     box-shadow: 2px 0px 20px #58626b7b;
 }
@@ -110,15 +110,6 @@ main {
     display: flex;
     align-items: flex-start; 
 }
-/* .selection{
-     background-image: url(https://fontawesome.com/icons/caret-down?f=classic&s=solid); /*aquí deberás escribir la ruta de la imagen que utilizarás como flecha del desplegable
-     background-repeat: no-repeat;
-    background-position: right center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    appearance: none;  
-} */
 
 .photo-section {
     width: 66%;
@@ -134,7 +125,6 @@ main {
     align-items: center;
     justify-content: center;
     width: 15%;
-
 }
 
 .mini-photo {
@@ -264,6 +254,7 @@ hr {
 /* FOOTER */
 
 footer{
+    width: 100%;
     background-color: #F8F9FA;
     display: flex;
     justify-content: space-between;
