@@ -8,6 +8,6 @@ First we made wireframes and prototype with Figma and then worked together on a 
 
 is our first training project in FemCoders BootCamp from Factoria F5.
 
-If you have any questions or comments, you can contact us (yakoshko@gmail.com).
+If you have any questions or comments, you can contact us (yakoshko@gmail.com y sarita248@outlook.es).
 
 Thanks for reading!
